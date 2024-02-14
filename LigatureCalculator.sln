@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LigatureCalculator", "LigatureCalculator\LigatureCalculator.csproj", "{68A0105F-71DE-4255-A13F-E7C3F14ACC1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A0105F-71DE-4255-A13F-E7C3F14ACC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A0105F-71DE-4255-A13F-E7C3F14ACC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A0105F-71DE-4255-A13F-E7C3F14ACC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A0105F-71DE-4255-A13F-E7C3F14ACC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D4803BE-F07C-406B-91A7-D458B96294F2}
+	EndGlobalSection
+EndGlobal
