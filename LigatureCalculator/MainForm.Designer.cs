@@ -101,7 +101,6 @@
             this.helpTppLink = new System.Windows.Forms.LinkLabel();
             this.aboutProgrammButton = new System.Windows.Forms.Button();
             this.helpStrLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.saveButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mainLigatureDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.outDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -517,7 +516,7 @@
             // 
             this.calcButton.AutoSize = true;
             this.calcButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.calcButton.Location = new System.Drawing.Point(800, 291);
+            this.calcButton.Location = new System.Drawing.Point(800, 255);
             this.calcButton.Name = "calcButton";
             this.calcButton.Size = new System.Drawing.Size(118, 30);
             this.calcButton.TabIndex = 17;
@@ -777,21 +776,9 @@
             this.helpStrLinkLabel.TabStop = true;
             this.helpStrLinkLabel.Text = "[?]";
             // 
-            // saveButton
-            // 
-            this.saveButton.AutoSize = true;
-            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.saveButton.Location = new System.Drawing.Point(800, 255);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(118, 30);
-            this.saveButton.TabIndex = 54;
-            this.saveButton.Text = "Сохранить";
-            this.saveButton.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             this.ClientSize = new System.Drawing.Size(924, 522);
-            this.Controls.Add(this.saveButton);
             this.Controls.Add(this.helpStrLinkLabel);
             this.Controls.Add(this.aboutProgrammButton);
             this.Controls.Add(this.helpTppLink);
@@ -920,7 +907,6 @@
         private System.Windows.Forms.LinkLabel helpTppLink;
         private System.Windows.Forms.Button aboutProgrammButton;
         private System.Windows.Forms.LinkLabel helpStrLinkLabel;
-        private System.Windows.Forms.Button saveButton;
     }
 }
 
